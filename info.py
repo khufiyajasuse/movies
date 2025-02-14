@@ -50,8 +50,8 @@ SHORTENER_API = environ.get("SHORTENER_API", "d2d9f412e48138430bf48b3346bb56ab3b
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'nanolinks.in')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "d2d9f412e48138430bf48b3346bb56ab3b186e01")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'nanolinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "0")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '0')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "613912fc47a42333c90e6a9270a55fc1d163331d")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'Shrinkme.io')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -77,7 +77,7 @@ REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '300'))
+FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '120'))
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', True)
 PORT = environ.get('PORT', '5000')
